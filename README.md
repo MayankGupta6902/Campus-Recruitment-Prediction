@@ -1,7 +1,7 @@
 # Campus-Recruitment-Prediction
 It is a Machine Learning model (gradient boosting) which will predict the recuitments on the basis of dataset provided
 
-# objective of the project
+# Objective of the project
 
 **Problem Statement:**
 
@@ -46,9 +46,18 @@ or not based on the available factors in the dataset.
 
 13. **random**: The random module in Python provides functions for generating random numbers and selecting random elements from a sequence. It is commonly used for tasks like shuffling data, generating random samples, and implementing random algorithms.
 
+
+**For Visualization:**
+
+**Histogram**: A histogram is a graphical representation of the distribution of numerical data. It consists of bars that show the frequency of data within equal intervals or bins. Histograms are useful for visualizing the shape, central tendency, and spread of data, making it easy to identify patterns, outliers, and underlying distributions.
+
+**Heatmap**: A heatmap is a graphical representation of data where the individual values contained in a matrix are represented as colors. It is useful for visualizing the magnitude of values in a matrix and is often used to plot correlations, distributions, or densities of data. Heatmaps are particularly effective for highlighting patterns and trends in large datasets.
+
+
 # About gradient boosting model and it's advantages
 
 Gradient boosting is a powerful ensemble learning technique used for regression and classification tasks. It builds a strong predictive model by combining the predictions of multiple individual models, typically decision trees, in a sequential manner. The key idea behind gradient boosting is to fit a new model to the residual errors (the difference between the actual and predicted values) of the existing model, thereby reducing the errors at each step. This process is repeated iteratively, with each new model focusing on the mistakes of its predecessors, gradually improving the overall model's performance.
+
 
 **Algorithm**:
 
@@ -64,6 +73,7 @@ Gradient boosting is a powerful ensemble learning technique used for regression 
 
 6. **Final model**: The final model is the sum of all the base learners' predictions, weighted by a learning rate, which controls the contribution of each model to the final prediction.
 
+
 **Advantages**:
 
 1. **High Predictive Accuracy**: Gradient boosting often achieves higher predictive accuracy compared to other machine learning algorithms due to its ability to capture complex relationships in the data.
@@ -75,3 +85,5 @@ Gradient boosting is a powerful ensemble learning technique used for regression 
 4. **Robust to Overfitting**: Gradient boosting is less prone to overfitting compared to other ensemble methods like bagging, especially when using shallow trees and regularization techniques.
 
 5. **Flexibility**: It can be applied to various types of problems, including regression, classification, and ranking tasks, making it a versatile algorithm for different use cases.
+
+
